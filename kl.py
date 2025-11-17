@@ -3,7 +3,7 @@ import google.generativeai as genai
 import PyPDF2
 
 # --- Configure Gemini ---
-genai.configure(api_key="AIzaSyD-KYL2Trc5oAos8Db1FIspL7IIc26w2v4")
+genai.configure(api_key="AIzaSyCJmRUXDi4UIxHu16k3gMzbYpBsB6clZ1E")
 model = genai.GenerativeModel("gemini-2.5-flash-lite")
 
 st.title("💼 Optimize Your LinkedIn Profile (Smart Mode)")
